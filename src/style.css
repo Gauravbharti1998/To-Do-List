@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 27px 20px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+#clock {
+    width: 180px;
+    height: px;
+    font-size :40px;
+    font-family: consolas;
+    border: 3px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    background: silver;
+}
+.button {
+    background-color: cadetblue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .container{
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
